@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 20px;
+}
+.logo img{
+    width: 130px;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    font-size: 23px;
+    padding-right: 40px;
+}
+.header ul li{
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.dropdown ol{
+    display: none;
+    margin-left: -20px;
+    list-style: none;
+}
+.dropdown ol li{
+    padding: 20px;
+    font-size: 18px;
+}
+.header ul li:hover .dropdown ol{
+    display: block;
+    position: absolute;
+    background-color: white;
+    /* padding: 20px; */
+    margin-left: -30px;
+}
+.dropdown ol li:hover{
+    background-color: #EC4D01;
+    color: white;
+}
+.one-word{
+    background-color: #EC4D01;
+    height: 450px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 140px 60px;
+    margin-bottom: 80px;
+}
+.left-side{
+    margin-top: 28px;
+}
+.left-side h1{
+    font-size: 65px;
+    padding-left: -20px;
+}
+.left-side p{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: -20px;
+    padding-bottom: 30px;
+}
+.left-side a{
+    color: white;
+    font-size: 25px;
+    padding-left: -20px;
+}
+.left-side i{
+    font-size: 23px;
+}
+.right-side{
+    margin-top: -20px;
+    margin-right: 10px;
+}
+.right-side iframe{
+    width: 650px;
+    height: 350px;
+    padding-top: 30px;
+}
+.youtube{
+    background-color: #FFFDFC;
+    height: 380px;
+    width: 650px;
+    border-radius: 30px;
+}
+.right-side p{
+    font-size: 30px;
+}
+.box{
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 8px;
+    padding: 30px;
+}
+.box-parent{
+    display: grid;
+    grid-template-columns: 440px 440px 440px;
+    gap: 15px;
+    justify-content: center;
+    margin-left: -68px;
+    margin-bottom: 90px;
+}
+.box img{
+    width: 440px;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.box img:hover{
+    filter: grayscale(0%);
+}
+.box h1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.box p{
+    font-size: 17px;
+    font-weight: 200;
+    padding-bottom: 25px;
+}
+.box .p-two{
+    font-size: 17px;
+    font-weight: 200;
+    padding-bottom: 5px; 
+}
+.box a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+}
+.box i{
+    color: blue;
+    padding-left: 8px;
+}
+.impect{
+    background-color: #00338D;
+    height: 350px;
+    color: white;
+}
+
+.num1{
+    font-size: 1.3rem;
+}
+.num1 i{
+    font-size: 40px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+.num1 h1{
+    padding-left: 15px;
+}
+.number-parent{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40PX;
+    padding-left: 30PX;
+}
+h2{
+    padding-top: 120px;
+    padding-left: 30px;
+    font-size: 30px;
+}
+.ecosystem-parent{
+    height: 450px;
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10em;
+}
+.left-eco{
+    width: 400px;
+}
+.left-eco h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.left-eco p{
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.right-eco{
+    margin-right: 10em;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 300px 300px;
+}
+.right-eco img{
+    width: 250px;
+    height: 120px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px gray;
+}
